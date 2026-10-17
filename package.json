@@ -1,0 +1,14 @@
+{
+  "name": "node-property-summary",
+  "private": true,
+  "workspaces": ["backend"],
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npm start -w restatefi-api",
+    "test": "node --test test/summarize.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

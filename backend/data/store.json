@@ -1,0 +1,1483 @@
+{
+  "user": [
+    {
+      "role": "ADMIN",
+      "kycStatus": "APPROVED",
+      "isActive": true,
+      "id": "c9dd72c989f1f00799e239bb6",
+      "walletAddress": "0x742d35cc6634c0532925a3b844bc9e7595f0beb0",
+      "email": "admin@restatefi.io",
+      "firstName": "Platform",
+      "lastName": "Admin",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.612Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.612Z"
+      }
+    },
+    {
+      "role": "INVESTOR",
+      "kycStatus": "APPROVED",
+      "isActive": true,
+      "id": "cc8ac665127399f6af2316c54",
+      "walletAddress": "0x1234567890123456789012345678901234567890",
+      "email": "investor@example.com",
+      "firstName": "Alex",
+      "lastName": "Investor",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.613Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.613Z"
+      }
+    },
+    {
+      "role": "BROKER",
+      "kycStatus": "APPROVED",
+      "isActive": true,
+      "id": "caea92b515f4692bb02bbe8af",
+      "walletAddress": "0xabcdefabcdefabcdefabcdefabcdefabcdefabcd",
+      "email": "broker@restatefi.io",
+      "firstName": "Sam",
+      "lastName": "Broker",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.613Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.613Z"
+      }
+    }
+  ],
+  "property": [
+    {
+      "status": "LISTED",
+      "expectedRoi": 12.4,
+      "rentalYield": 7.2,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1762425430465-0d9f08d64147?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "10000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "3400"
+      },
+      "chainId": 1,
+      "id": "c0656be42df5c32b8ffb96069",
+      "title": "Skyline Penthouse — Dubai Marina",
+      "description": "A waterfront penthouse in Dubai Marina offered as a tokenized residential interest. Quarterly rental income is distributed to holders according to recorded ownership.",
+      "country": "UAE",
+      "city": "Dubai",
+      "address": "Marina Walk, Dubai Marina",
+      "latitude": 25.0805,
+      "longitude": 55.1403,
+      "propertyType": "RESIDENTIAL",
+      "priceUsd": 2850000,
+      "valuationUsd": 3100000,
+      "monthlyRentalUsd": 17100,
+      "tokenPriceUsd": 285,
+      "ownerId": "caea92b515f4692bb02bbe8af",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb1",
+      "nftTokenId": "1",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-07T03:08:54.614Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.626Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 9.8,
+      "rentalYield": 5.5,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "50000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "17300"
+      },
+      "chainId": 1,
+      "id": "c55afad0e35b975a514791b05",
+      "title": "Grade A Offices — London Canary Wharf",
+      "description": "Institutional office accommodation in Canary Wharf. Title is recorded digitally, with fractional interests available to qualified investors.",
+      "country": "United Kingdom",
+      "city": "London",
+      "address": "1 Canada Square, Canary Wharf",
+      "latitude": 51.5054,
+      "longitude": -0.0235,
+      "propertyType": "COMMERCIAL",
+      "priceUsd": 8900000,
+      "valuationUsd": 9200000,
+      "monthlyRentalUsd": 40750,
+      "tokenPriceUsd": 178,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa2",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb2",
+      "nftTokenId": "2",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-08T03:08:54.614Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.628Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 14.2,
+      "rentalYield": 8.1,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1703135387362-4b749023e1e1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1468413253725-0d5181091126?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1501952476817-d7ae22e8ee4e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "20000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "8300"
+      },
+      "chainId": 1,
+      "id": "cee72aa0386fd99064b29410b",
+      "title": "Beachfront Villa — Miami Beach",
+      "description": "A five-bedroom coastal residence with an established short-stay income profile. Rental proceeds are allocated to investors in proportion to their holding.",
+      "country": "United States",
+      "city": "Miami",
+      "address": "4520 Ocean Drive, Miami Beach, FL",
+      "latitude": 25.7907,
+      "longitude": -80.13,
+      "propertyType": "RESIDENTIAL",
+      "priceUsd": 4200000,
+      "valuationUsd": 4500000,
+      "monthlyRentalUsd": 28350,
+      "tokenPriceUsd": 210,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa3",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb3",
+      "nftTokenId": "3",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-09T03:08:54.615Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.630Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 8.5,
+      "rentalYield": 6.2,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1565610222536-ef125c59da2e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "100000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "62000"
+      },
+      "chainId": 1,
+      "id": "c069c502569abd6f72d45c639",
+      "title": "Logistics Facility — Singapore",
+      "description": "A modern logistics facility near Changi under a long-term corporate lease, structured as a stable-yield industrial interest.",
+      "country": "Singapore",
+      "city": "Singapore",
+      "address": "10 Changi South Lane",
+      "latitude": 1.334,
+      "longitude": 103.9638,
+      "propertyType": "INDUSTRIAL",
+      "priceUsd": 12500000,
+      "valuationUsd": 12800000,
+      "monthlyRentalUsd": 64583,
+      "tokenPriceUsd": 125,
+      "ownerId": "caea92b515f4692bb02bbe8af",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa4",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb4",
+      "nftTokenId": "4",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-10T03:08:54.616Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.616Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 11,
+      "rentalYield": 4.8,
+      "isTokenized": false,
+      "fractionalAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "0"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "0"
+      },
+      "chainId": 1,
+      "id": "c7587f5706d061f2746e4c0af",
+      "title": "Alpine Chalet — Zermatt",
+      "description": "A private ski residence in the Swiss Alps with seasonal hospitality income. Offered for whole-asset transfer through escrow; fractional interests are not available.",
+      "country": "Switzerland",
+      "city": "Zermatt",
+      "address": "Obere Mattenstrasse 12",
+      "latitude": 46.0207,
+      "longitude": 7.7491,
+      "propertyType": "RESIDENTIAL",
+      "priceUsd": 6800000,
+      "valuationUsd": 7100000,
+      "monthlyRentalUsd": 27200,
+      "tokenPriceUsd": null,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": null,
+      "fractionalContract": null,
+      "nftTokenId": null,
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-11T03:08:54.616Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.616Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 10.2,
+      "rentalYield": 5.9,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "75000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "30600"
+      },
+      "chainId": 1,
+      "id": "c8b058cb36a90a54cf7b9c73d",
+      "title": "Mixed-Use Tower — Tokyo Shibuya",
+      "description": "A retail and residential tower in Shibuya. Fractional interests provide exposure to a high-demand urban market with documented ownership.",
+      "country": "Japan",
+      "city": "Tokyo",
+      "address": "2-24-12 Shibuya, Shibuya City",
+      "latitude": 35.6595,
+      "longitude": 139.7004,
+      "propertyType": "MIXED_USE",
+      "priceUsd": 15200000,
+      "valuationUsd": 15800000,
+      "monthlyRentalUsd": 74767,
+      "tokenPriceUsd": 202.67,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa6",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb6",
+      "nftTokenId": "6",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-12T03:08:54.617Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.633Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 9.1,
+      "rentalYield": 5.2,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1758565811404-0ff79b13ad48?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "40000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "14850"
+      },
+      "chainId": 1,
+      "id": "ca6553ae055767fed3904f1e1",
+      "title": "Loft Portfolio — Midtown Manhattan",
+      "description": "A portfolio of loft residences in Midtown Manhattan. Settlement is completed in approved digital currencies with a complete ownership history.",
+      "country": "United States",
+      "city": "New York",
+      "address": "350 Fifth Avenue, New York, NY",
+      "latitude": 40.7484,
+      "longitude": -73.9857,
+      "propertyType": "RESIDENTIAL",
+      "priceUsd": 9800000,
+      "valuationUsd": 10200000,
+      "monthlyRentalUsd": 42400,
+      "tokenPriceUsd": 245,
+      "ownerId": "caea92b515f4692bb02bbe8af",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa7",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb7",
+      "nftTokenId": "7",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-13T03:08:54.619Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.635Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 7.8,
+      "rentalYield": 4.1,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1513745405825-efaf9a49315f?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "15000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "6100"
+      },
+      "chainId": 1,
+      "id": "c6cc569ea9af2d38dd7490897",
+      "title": "Haussmann Residence — Paris 8e",
+      "description": "A classic Haussmann residence near the Champs-Élysées, offered with a limited allocation of fractional interests.",
+      "country": "France",
+      "city": "Paris",
+      "address": "12 Avenue Montaigne, Paris",
+      "latitude": 48.8656,
+      "longitude": 2.3039,
+      "propertyType": "RESIDENTIAL",
+      "priceUsd": 5400000,
+      "valuationUsd": 5600000,
+      "monthlyRentalUsd": 18450,
+      "tokenPriceUsd": 360,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa8",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb8",
+      "nftTokenId": "8",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-14T03:08:54.620Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.620Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 10.5,
+      "rentalYield": 6.1,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1501952476817-d7ae22e8ee4e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1468413253725-0d5181091126?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1703135387362-4b749023e1e1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "30000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "10700"
+      },
+      "chainId": 1,
+      "id": "cba24ba3bf4633c389e0375e2",
+      "title": "Harbour Residences — Sydney",
+      "description": "Waterfront apartments overlooking Sydney Harbour. Monthly rental income is distributed to holders in approved settlement currency.",
+      "country": "Australia",
+      "city": "Sydney",
+      "address": "88 Circular Quay West",
+      "latitude": -33.8587,
+      "longitude": 151.214,
+      "propertyType": "RESIDENTIAL",
+      "priceUsd": 7600000,
+      "valuationUsd": 7900000,
+      "monthlyRentalUsd": 38600,
+      "tokenPriceUsd": 253.33,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa9",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9",
+      "nftTokenId": "9",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-15T03:08:54.621Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.637Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 8.9,
+      "rentalYield": 5.8,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "56000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "24100"
+      },
+      "chainId": 1,
+      "id": "cb9a3f9ae46de2238916cade5",
+      "title": "Office Campus — Berlin Mitte",
+      "description": "A modern office campus leased to technology tenants, providing a diversified commercial income stream with holder voting rights.",
+      "country": "Germany",
+      "city": "Berlin",
+      "address": "Friedrichstraße 100",
+      "latitude": 52.5202,
+      "longitude": 13.3889,
+      "propertyType": "COMMERCIAL",
+      "priceUsd": 11200000,
+      "valuationUsd": 11600000,
+      "monthlyRentalUsd": 54100,
+      "tokenPriceUsd": 200,
+      "ownerId": "caea92b515f4692bb02bbe8af",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa10",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb10",
+      "nftTokenId": "10",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-16T03:08:54.622Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.641Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 9.4,
+      "rentalYield": 5.4,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1716464968470-c2162dd998e4?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1459865264687-595d652de67e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "25000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "9800"
+      },
+      "chainId": 1,
+      "id": "caf1fe25127830b98af45226c",
+      "title": "Residential Tower — Toronto Financial District",
+      "description": "High-rise residences adjacent to the Financial District, supported by a diversified tenancy schedule and a recorded ownership history.",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "1 King Street West",
+      "latitude": 43.6486,
+      "longitude": -79.3779,
+      "propertyType": "RESIDENTIAL",
+      "priceUsd": 6300000,
+      "valuationUsd": 6550000,
+      "monthlyRentalUsd": 28350,
+      "tokenPriceUsd": 252,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa11",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb11",
+      "nftTokenId": "11",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-17T03:08:54.622Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.622Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 13.1,
+      "rentalYield": 7.6,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "18000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "6950"
+      },
+      "chainId": 1,
+      "id": "cdd07615e896fd75f13265e8a",
+      "title": "Boutique Hotel — Barcelona Gothic Quarter",
+      "description": "A hospitality asset in the Gothic Quarter with a seasonal tourism income profile. Title and fractional interests are recorded digitally.",
+      "country": "Spain",
+      "city": "Barcelona",
+      "address": "Carrer del Bisbe 7",
+      "latitude": 41.3835,
+      "longitude": 2.1761,
+      "propertyType": "COMMERCIAL",
+      "priceUsd": 4800000,
+      "valuationUsd": 5050000,
+      "monthlyRentalUsd": 30400,
+      "tokenPriceUsd": 266.67,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa12",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb12",
+      "nftTokenId": "12",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-18T03:08:54.623Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.644Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 7.6,
+      "rentalYield": 4.9,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "90000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "41000"
+      },
+      "chainId": 1,
+      "id": "c043b4851c3201f4497b40b6a",
+      "title": "Harbourfront Offices — Hong Kong",
+      "description": "Premium office floors facing Victoria Harbour, underpinned by an institutional lease profile and digital settlement.",
+      "country": "Hong Kong",
+      "city": "Hong Kong",
+      "address": "1 Harbour Road, Wan Chai",
+      "latitude": 22.2808,
+      "longitude": 114.173,
+      "propertyType": "COMMERCIAL",
+      "priceUsd": 18500000,
+      "valuationUsd": 19200000,
+      "monthlyRentalUsd": 75600,
+      "tokenPriceUsd": 205.56,
+      "ownerId": "caea92b515f4692bb02bbe8af",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa13",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb13",
+      "nftTokenId": "13",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-19T03:08:54.624Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.624Z"
+      }
+    },
+    {
+      "status": "LISTED",
+      "expectedRoi": 12.8,
+      "rentalYield": 7.9,
+      "isTokenized": true,
+      "fractionalAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1762425430465-0d9f08d64147?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1758565811404-0ff79b13ad48?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1400&q=85",
+        "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1400&q=85"
+      ],
+      "documents": [],
+      "totalSupply": {
+        "__t": "bigint",
+        "v": "12000"
+      },
+      "availableTokens": {
+        "__t": "bigint",
+        "v": "4500"
+      },
+      "chainId": 1,
+      "id": "c2ecc00c48c448a61ec934112",
+      "title": "Terraced Residences — Lisbon Alfama",
+      "description": "Renovated terraced homes in Alfama with short-stay authorizations, supported by established European tourism demand.",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "address": "Rua de São Miguel 42",
+      "latitude": 38.7129,
+      "longitude": -9.1303,
+      "propertyType": "RESIDENTIAL",
+      "priceUsd": 3100000,
+      "valuationUsd": 3350000,
+      "monthlyRentalUsd": 20400,
+      "tokenPriceUsd": 258.33,
+      "ownerId": "c9dd72c989f1f00799e239bb6",
+      "nftContract": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa14",
+      "fractionalContract": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb14",
+      "nftTokenId": "14",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-20T03:08:54.624Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.624Z"
+      }
+    }
+  ],
+  "investment": [
+    {
+      "status": "ACTIVE",
+      "chainId": 1,
+      "rentalEarnedUsd": 2140,
+      "id": "c9512691a7f65b67b735db2b3",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c0656be42df5c32b8ffb96069",
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "800"
+      },
+      "investedUsd": 228000,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000001",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-19T03:08:54.625Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.625Z"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "chainId": 1,
+      "rentalEarnedUsd": 1860,
+      "id": "c012127b2d2938f051beb5c55",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c55afad0e35b975a514791b05",
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "1200"
+      },
+      "investedUsd": 213600,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000002",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-26T03:08:54.628Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.628Z"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "chainId": 1,
+      "rentalEarnedUsd": 980,
+      "id": "c8a4b9ea51d42b0ed0561352b",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cee72aa0386fd99064b29410b",
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "600"
+      },
+      "investedUsd": 126000,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000003",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-03T03:08:54.630Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.630Z"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "chainId": 1,
+      "rentalEarnedUsd": 520,
+      "id": "cb4a1431bd11d07a7d7aa180c",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c8b058cb36a90a54cf7b9c73d",
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "400"
+      },
+      "investedUsd": 81068,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000004",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-07T03:08:54.632Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.632Z"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "chainId": 1,
+      "rentalEarnedUsd": 410,
+      "id": "cc73dabf8c0fe47fb95e63297",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "ca6553ae055767fed3904f1e1",
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "350"
+      },
+      "investedUsd": 85750,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000005",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-10T03:08:54.634Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.634Z"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "chainId": 1,
+      "rentalEarnedUsd": 640,
+      "id": "c1d0db4bc53e6346d81e82a00",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cba24ba3bf4633c389e0375e2",
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "500"
+      },
+      "investedUsd": 126665,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000006",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-12T03:08:54.636Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.636Z"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "chainId": 1,
+      "rentalEarnedUsd": 390,
+      "id": "cf516b37632c1944221756112",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cb9a3f9ae46de2238916cade5",
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "700"
+      },
+      "investedUsd": 140000,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000007",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-14T03:08:54.639Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.639Z"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "chainId": 1,
+      "rentalEarnedUsd": 210,
+      "id": "c43e9d2198a7522b967458b36",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cdd07615e896fd75f13265e8a",
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "250"
+      },
+      "investedUsd": 66667.5,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000008",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-15T03:08:54.643Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.643Z"
+      }
+    }
+  ],
+  "transaction": [
+    {
+      "id": "c64af13588f9533f5a0a5dca9",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c0656be42df5c32b8ffb96069",
+      "type": "PURCHASE",
+      "amountUsd": 228000,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "800"
+      },
+      "chainId": 1,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000001",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-19T03:08:54.625Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.627Z"
+      }
+    },
+    {
+      "id": "cb6a8c336a6dc916d03a8414c",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c55afad0e35b975a514791b05",
+      "type": "PURCHASE",
+      "amountUsd": 213600,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "1200"
+      },
+      "chainId": 1,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000002",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-09-26T03:08:54.628Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.629Z"
+      }
+    },
+    {
+      "id": "c4716582d769c018e1768cc81",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cee72aa0386fd99064b29410b",
+      "type": "PURCHASE",
+      "amountUsd": 126000,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "600"
+      },
+      "chainId": 1,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000003",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-03T03:08:54.630Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.631Z"
+      }
+    },
+    {
+      "id": "cd2a6bf1e0515d1b875097312",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c8b058cb36a90a54cf7b9c73d",
+      "type": "PURCHASE",
+      "amountUsd": 81068,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "400"
+      },
+      "chainId": 1,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000004",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-07T03:08:54.632Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.634Z"
+      }
+    },
+    {
+      "id": "c280deefe5978872f6f77211d",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "ca6553ae055767fed3904f1e1",
+      "type": "PURCHASE",
+      "amountUsd": 85750,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "350"
+      },
+      "chainId": 1,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000005",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-10T03:08:54.634Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.636Z"
+      }
+    },
+    {
+      "id": "cf3a596c56557f8c5c29b5719",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cba24ba3bf4633c389e0375e2",
+      "type": "PURCHASE",
+      "amountUsd": 126665,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "500"
+      },
+      "chainId": 1,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000006",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-12T03:08:54.636Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.638Z"
+      }
+    },
+    {
+      "id": "c8dd7bbb1273f0306adc9521a",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cb9a3f9ae46de2238916cade5",
+      "type": "PURCHASE",
+      "amountUsd": 140000,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "700"
+      },
+      "chainId": 1,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000007",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-14T03:08:54.639Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.642Z"
+      }
+    },
+    {
+      "id": "c25cf347a46dcb259b71e5d39",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cdd07615e896fd75f13265e8a",
+      "type": "PURCHASE",
+      "amountUsd": 66667.5,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "250"
+      },
+      "chainId": 1,
+      "txHash": "0xaa00000000000000000000000000000000000000000000000000000000000008",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-15T03:08:54.643Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.645Z"
+      }
+    },
+    {
+      "id": "cde48f2ded618256ff05c04ae",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c0656be42df5c32b8ffb96069",
+      "type": "RENTAL_DISTRIBUTION",
+      "amountUsd": 420,
+      "tokenAmount": null,
+      "chainId": 1,
+      "txHash": "0xbb0000000000000000000000000000000000000000000000000000000000000a",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-16T03:08:54.647Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.647Z"
+      }
+    },
+    {
+      "id": "c038b36e15be8ff93588aa182",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cee72aa0386fd99064b29410b",
+      "type": "RENTAL_DISTRIBUTION",
+      "amountUsd": 310,
+      "tokenAmount": null,
+      "chainId": 1,
+      "txHash": "0xbb0000000000000000000000000000000000000000000000000000000000000b",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-16T03:08:54.648Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.648Z"
+      }
+    },
+    {
+      "id": "cc997c70b97dab5d1b325fa28",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cba24ba3bf4633c389e0375e2",
+      "type": "PURCHASE",
+      "amountUsd": 12666,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "50"
+      },
+      "chainId": 1,
+      "txHash": "0xbb0000000000000000000000000000000000000000000000000000000000000c",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-16T03:08:54.649Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.649Z"
+      }
+    },
+    {
+      "id": "c9961dadd896e776cb8e12f67",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c55afad0e35b975a514791b05",
+      "type": "RENTAL_DISTRIBUTION",
+      "amountUsd": 275,
+      "tokenAmount": null,
+      "chainId": 1,
+      "txHash": "0xbb0000000000000000000000000000000000000000000000000000000000000d",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-15T03:08:54.651Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.651Z"
+      }
+    },
+    {
+      "id": "c9dbce9fd4ccc0b67a85f6b11",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "ca6553ae055767fed3904f1e1",
+      "type": "PURCHASE",
+      "amountUsd": 12250,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "50"
+      },
+      "chainId": 1,
+      "txHash": "0xbb0000000000000000000000000000000000000000000000000000000000000e",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-15T03:08:54.652Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.652Z"
+      }
+    },
+    {
+      "id": "cc78f0467eb35b7097f3d040c",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cdd07615e896fd75f13265e8a",
+      "type": "RENTAL_DISTRIBUTION",
+      "amountUsd": 180,
+      "tokenAmount": null,
+      "chainId": 1,
+      "txHash": "0xbb0000000000000000000000000000000000000000000000000000000000000f",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-14T03:08:54.654Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.654Z"
+      }
+    },
+    {
+      "id": "cb9f771d5466a6503d399b3e4",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c8b058cb36a90a54cf7b9c73d",
+      "type": "RENTAL_DISTRIBUTION",
+      "amountUsd": 205,
+      "tokenAmount": null,
+      "chainId": 1,
+      "txHash": "0xbb00000000000000000000000000000000000000000000000000000000000010",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-13T03:08:54.656Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.656Z"
+      }
+    },
+    {
+      "id": "c80c5956c7882229573b5072b",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cb9a3f9ae46de2238916cade5",
+      "type": "PURCHASE",
+      "amountUsd": 20000,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "100"
+      },
+      "chainId": 1,
+      "txHash": "0xbb00000000000000000000000000000000000000000000000000000000000011",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-13T03:08:54.657Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.657Z"
+      }
+    },
+    {
+      "id": "c0e829f4299e5086f53212754",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c0656be42df5c32b8ffb96069",
+      "type": "RENTAL_DISTRIBUTION",
+      "amountUsd": 390,
+      "tokenAmount": null,
+      "chainId": 1,
+      "txHash": "0xbb00000000000000000000000000000000000000000000000000000000000012",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-11T03:08:54.658Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.658Z"
+      }
+    },
+    {
+      "id": "c11874ccfa464f5382bf21448",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cee72aa0386fd99064b29410b",
+      "type": "SALE",
+      "amountUsd": 10500,
+      "tokenAmount": {
+        "__t": "bigint",
+        "v": "50"
+      },
+      "chainId": 1,
+      "txHash": "0xbb00000000000000000000000000000000000000000000000000000000000013",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-09T03:08:54.659Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.659Z"
+      }
+    },
+    {
+      "id": "c001fb28afba13da055c4041b",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "c55afad0e35b975a514791b05",
+      "type": "RENTAL_DISTRIBUTION",
+      "amountUsd": 260,
+      "tokenAmount": null,
+      "chainId": 1,
+      "txHash": "0xbb00000000000000000000000000000000000000000000000000000000000014",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-08T03:08:54.660Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.660Z"
+      }
+    },
+    {
+      "id": "c5f2e295ed9122575700d4371",
+      "userId": "cc8ac665127399f6af2316c54",
+      "propertyId": "cba24ba3bf4633c389e0375e2",
+      "type": "RENTAL_DISTRIBUTION",
+      "amountUsd": 155,
+      "tokenAmount": null,
+      "chainId": 1,
+      "txHash": "0xbb00000000000000000000000000000000000000000000000000000000000015",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-06T03:08:54.661Z"
+      },
+      "metadata": {
+        "source": "seed",
+        "note": "sample recent activity"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.661Z"
+      }
+    }
+  ],
+  "kycRecord": [],
+  "favorite": [],
+  "platformSettings": [
+    {
+      "id": "c3d5c249a5750d35b7cbc260c",
+      "key": "defaultChainId",
+      "value": 1,
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.662Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.662Z"
+      }
+    },
+    {
+      "id": "c5e923247beb91efd0de75ff3",
+      "key": "supportedChains",
+      "value": [
+        1,
+        137,
+        8453,
+        42161,
+        10,
+        56,
+        43114
+      ],
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.663Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.663Z"
+      }
+    },
+    {
+      "id": "c836572bf3716c49c081bccdc",
+      "key": "paymentTokens",
+      "value": [
+        "USDC",
+        "USDT",
+        "ETH",
+        "WETH",
+        "WBTC"
+      ],
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.664Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.664Z"
+      }
+    },
+    {
+      "id": "cf5e9c8a6407818d1f9b73882",
+      "key": "demoInvestorWallet",
+      "value": "0x1234567890123456789012345678901234567890",
+      "createdAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.664Z"
+      },
+      "updatedAt": {
+        "__t": "date",
+        "v": "2026-10-17T03:08:54.664Z"
+      }
+    }
+  ],
+  "auditLog": []
+}
